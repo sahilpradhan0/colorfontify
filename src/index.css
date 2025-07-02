@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-xl: 64rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.bg {
+  /* background-image: linear-gradient(to right, #b1b0b02d 1px, transparent 1px),
+    linear-gradient(to bottom, #4f4f4f2e 0px, transparent 1px); */
+    background-color: var(--color-slate-900);
+  background-image: linear-gradient(to right, #4f4f4f2e 1px, transparent 1px),
+    linear-gradient(to bottom, #4f4f4f2e 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+button {
+  cursor: pointer;
+}
+#howItWorks,
+#features,
+#upload {
+  scroll-margin-top: 100px; /* Adjust to your navbar height */
+}
