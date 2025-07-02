@@ -1,4 +1,3 @@
-import { Snippet } from '@heroui/snippet';
 import { useEffect, useState } from 'react';
 import { createWorker } from 'tesseract.js';
 import TestSnippet from './TestSnippet';

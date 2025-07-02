@@ -1,7 +1,7 @@
 import { Snippet } from "@heroui/react"
 import { useEffect, useState } from "react"
 import TestSnippet from "./TestSnippet";
-import ColorSnippet from "./COlorSnippet";
+import ColorSnippet from "./ColorSnippet";
 const ColorPalette = ({ dominantColor, isHovered, setIsHovered, colorPalettes }) => {
     useEffect(() => {
         setIsHovered(false);
